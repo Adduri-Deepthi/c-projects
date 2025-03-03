@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main() {
+    int n = 6;
+    int guess_num;
+    int guess_limit = 3;
+    for (int i = 1; i<=guess_limit; i++) {
+        printf("guess_num %d : ", i);
+        scanf("%d", &guess_num);
+        if (guess_num == n) {
+            printf("won");
+            break;
+            }
+    }
+    if(guess_num != n) {
+        printf("lost");
+        
+    
+
+    }
+}
